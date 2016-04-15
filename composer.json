@@ -1,0 +1,12 @@
+{
+    "name": "ztsu/pipe",
+    "description": "Pipeline pattern implementation",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Golovnya",
+            "email": "alexey.golovnya@gmail.com"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,6 @@
+suites:
+  constraints:
+    namespace: Ztsu\Pipe
+    psr4_prefix: Ztsu\Pipe\
+    src_path: src/
+formatter.name: pretty

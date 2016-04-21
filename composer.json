@@ -1,6 +1,6 @@
 {
     "name": "ztsu/pipe",
-    "description": "Pipeline pattern implementation",
+    "description": "Pipeline pattern simple implementation",
     "license": "MIT",
     "authors": [
         {
@@ -8,5 +8,12 @@
             "email": "alexey.golovnya@gmail.com"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "phpspec/phpspec": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ztsu\\Pipe\\": "src/"
+        }
+    }
 }

@@ -15,5 +15,8 @@
         "psr-4": {
             "Ztsu\\Pipe\\": "src/"
         }
+    },
+    "scripts": {
+        "test": "phpspec run"
     }
 }

@@ -12,7 +12,7 @@ namespace Ztsu\Pipe;
 
 class Pipeline implements PipelineInterface
 {
-    private $stages = [];
+    private $stages;
 
     public function __construct()
     {

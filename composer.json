@@ -8,6 +8,9 @@
             "email": "alexey.golovnya@gmail.com"
         }
     ],
+    "require": {
+        "php": ">=5.4.0"
+    },
     "require-dev": {
         "phpspec/phpspec": "^2.5"
     },

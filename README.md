@@ -39,7 +39,7 @@ echo $pipeline->run(""); // "ab"
 Here `$a` and `$b` are callables with two arguments. First is for accumulating a payload from previous stages.
 Second is for continuing next stages in a pipeline.
 
-For break pipiline just return `$payload` instead of call `$next`:
+For break pipeline just return `$payload` instead of call `$next`:
 
 ```php
 $pipeline = new Pipeline;
